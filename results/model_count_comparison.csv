@@ -1,0 +1,4 @@
+﻿model,nobs,aic,extra
+ols_reduced_hc1,493776,709474.6584994924,
+poisson_reduced_hc1,493776,3599460.352493183,5.345574404267598
+negative_binomial_main,493776,2250013.497025275,1.0

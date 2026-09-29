@@ -1,0 +1,2 @@
+﻿available,source_file,total_orders_out,total_distance_km,weighted_mean_distance_km,grid_hour_avg_distance_median_km,grid_hour_avg_distance_p25_km,grid_hour_avg_distance_p75_km
+True,bike_output_bj_corrected\grid_hour_panel.parquet,13915910.0,15350766.92911559,1.1031090980838185,1.1967868328541331,0.9356532590000136,1.7255793119594482

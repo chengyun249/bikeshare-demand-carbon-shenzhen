@@ -1,0 +1,10 @@
+﻿module,metric,value,note
+Stage 3B,模型样本行数,493776.0,active_grid_only=True
+Stage 3B,OLS-log R2,0.9232613436858768,用于机制方向对照
+Stage 3B,Poisson Pearson Chi2/df,5.345574404267598,大于1说明过度离散
+Stage 3B,Poisson AIC,3599460.352493183,计数模型对照
+Stage 3B,Negative Binomial AIC,2250013.497025275,推荐作为主计数模型
+Stage 3B,富裕代理 Logit ROC-AUC,0.8463344556370892,L2正则化Logistic
+Stage 3B,富裕代理 Balanced Accuracy,0.7877277805010474,L2正则化Logistic
+Stage 3B,紧张代理 Logit ROC-AUC,0.6551594967935621,L2正则化Logistic，解释力较弱
+Stage 3B,紧张代理 Balanced Accuracy,0.6183382795648715,L2正则化Logistic

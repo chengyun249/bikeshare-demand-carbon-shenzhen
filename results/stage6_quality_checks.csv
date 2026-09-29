@@ -1,0 +1,4 @@
+﻿check,status,message
+stage5_default_distance,ok,Stage 5 基准距离=1.1；数据加权平均距离=1.1031090980838185
+stage5_period_label,ok,stage5_period_summary 无 NaN 时段标签
+count_model_overdispersion,ok,Poisson Pearson Chi2/df=5.345574404267598; NB AIC=2250013.497025275，建议以负二项为主模型。
