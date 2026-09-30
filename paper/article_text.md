@@ -1,5 +1,7 @@
 # 共享单车潜在需求缺口与情景化减碳潜力研究
 
+> 阅读提示：如果图像未显示，可尝试每幅图下方的“打开原图”链接。公式预览异常时，可查看[公式源码索引](equations_source.md)。
+
 ## 摘要
 
 在国家推动绿色低碳转型与城市交通高质量发展的战略背景下，共享单车作为短距离出行与公共交通接驳的关键工具，对完善城市交通网络、降低出行碳排放具有重要作用。但当前共享单车系统存在供需时空错配问题。在平台数据壁垒，实时车辆库存、找车耗时等微观行为数据难以获取，潜在骑行需求因车辆缺位无法转化为实际订单，导致需求识别精度不足的约束下，如何基于公开数据构建精准化供需预测框架，提升共享单车时空匹配效率与低碳服务能力，成为城市交通治理领域的重要问题。
@@ -38,7 +40,9 @@
 
 本文整体采用“数据处理—订单流分析—机制解释—缺口识别—情景估算”的分析路径。具体而言，首先将订单起终点映射至H3网格，构建网格—小时面板数据；在此基础上，通过出发订单、到达订单及净流入刻画订单流特征，并构建供给状态代理；随后引入POI变量，从城市功能角度解释订单强度差异；进一步利用预测模型构建需求基准，并识别潜在未满足需求代理；最后结合不同情景设定，对潜在需求释放的减碳潜力进行估算。
 
-![正文插图 1](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_01.png)
+![正文插图 1](images/figure_01.png)
+
+[打开原图：正文插图 1](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_01.png)
 
 **图1  本文技术路线**
 
@@ -80,6 +84,8 @@
 需要指出的是，由于缺乏实际骑行轨迹，本文采用球面距离作为骑行距离近似，这一处理可能低估真实出行距离。因此，在后续减碳分析中引入距离敏感性分析，以降低该误差影响。
 
 ![正文插图 2](images/figure_02.png)
+
+[打开原图：正文插图 2](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_02.png)
 
 **图2  数据处理与面板构建流程**
 
@@ -185,6 +191,8 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 3](images/figure_03.png)
 
+[打开原图：正文插图 3](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_03.png)
+
 **图3  共享单车订单 24 小时分布**
 
 从研究设计角度看，采用全天 24 小时数据比仅分析高峰时段更有助于理解系统运行机制。仅关注高峰期虽然可以识别需求集中释放，但难以观察夜间车辆沉淀及早高峰前的供给基础；而仅分析日间数据，则可能忽略夜间净流入对次日供给结构的影响。基于这一考虑，本文将全天划分为若干关键时段，用于后续分析。
@@ -208,6 +216,8 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 4](images/figure_04.png)
 
+[打开原图：正文插图 4](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_04.png)
+
 **图 4  共享单车订单空间分布**
 
 空间集聚结果说明，共享单车需求与城市建成环境和功能结构密切相关。高订单网格并不只是人口密集区，也可能是公共交通接驳点、产业园区、商业活动区和居住—就业转换带。该特征为后续 POI 机制分析提供了基础：若某类 POI 在高订单网格中系统性集聚，则其可能对共享单车订单强度具有解释力。
@@ -222,6 +232,8 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 5](images/figure_05.png)
 
+[打开原图：正文插图 5](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_05.png)
+
 **图 5  夜间净流入空间分布**
 
 ### （四）早高峰前供给基础
@@ -232,6 +244,8 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 6](images/figure_06.png)
 
+[打开原图：正文插图 6](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_06.png)
+
 **图 6  早高峰前库存代理空间分布**
 
 这一指标在实际运营中具有一定参考意义。例如，对于“高需求 + 低供给”的区域，可以在夜间或清晨进行预调度；而对于夜间车辆积累明显但需求释放不足的区域，则需要进一步判断其是否属于潜在调出区域。
@@ -241,6 +255,8 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 在订单流与供给状态代理基础上，本文进一步构建供给富裕与供给紧张两类代理指标。供给富裕代理主要对应库存代理较高或净流入较强的情形，可能反映车辆阶段性富余或沉淀；供给紧张代理则对应出发需求较强、净流出明显且供给代理偏低的情形。
 
 ![正文插图 7](images/figure_07.png)
+
+[打开原图：正文插图 7](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_07.png)
 
 **图 7  晚高峰供给富裕代理区与供给紧张代理区**
 
@@ -265,6 +281,8 @@ POI变量的作用主要体现在两方面：一是解释订单强度的空间�
 需要说明的是，POI 变量之间往往存在较强相关性，例如商业消费、办公/产业、公共服务和交通设施往往共同集聚于城市中心或轨道站点周边。因此，本文更倾向于将模型结果理解为统计关联及其可能的行为解释，而不对其进行严格的因果推断。
 
 ![正文插图 8](images/figure_08.png)
+
+[打开原图：正文插图 8](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_08.png)
 
 **图 8  POI变量相关矩阵**
 
@@ -305,6 +323,8 @@ POI变量的作用主要体现在两方面：一是解释订单强度的空间�
 
 ![正文插图 9](images/figure_09.png)
 
+[打开原图：正文插图 9](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_09.png)
+
 **图 9  POI变量对出发订单强度的影响**
 
 商业消费类 POI 在描述性比较中通常对应较高订单活跃度，但在多变量负二项模型中呈现负向净效应。该结果不宜简单解释为商业区抑制共享单车需求。 更合理的解释是：商业消费区通常与办公、交通和公共服务设施高度重合，在控制其他 POI 和时间空间因素后，商业消费变量反映的是相对于其他功能变量的边际净效应。此外，核心商业区可能存在更强步行可达性、停车约束或慢行管理限制，也可能削弱其对共享单车出发订单的净影响。因此，该结果不应被解释为商业区不需要共享单车供给，而应理解为在多变量控制条件下，商业消费 POI 相对于居住、交通和办公等变量的边际净效应较弱或方向不同。
@@ -330,7 +350,11 @@ POI变量的作用主要体现在两方面：一是解释订单强度的空间�
 
 ![正文插图 10](images/figure_10.png)
 
+[打开原图：正文插图 10](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_10.png)
+
 ![正文插图 11](images/figure_11.png)
+
+[打开原图：正文插图 11](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_11.png)
 
 **图 10  POI变量对供给状态代理的解释方向**
 
@@ -387,6 +411,8 @@ Gap_{i,d,t}=\max\left(\widehat D_{i,d,t}-O^{out}_{i,d,t},\,0\right)\tag{10}
 
 ![正文插图 12](images/figure_12.png)
 
+[打开原图：正文插图 12](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_12.png)
+
 **图11 预测模型 RMSE对比**
 
 这一改进主要源于订单数据的非线性特征。例如，同一类 POI 在不同时间段的作用并不一致，居住区与办公区在早晚高峰的影响方向也存在差异。相较之下，机器学习模型能够更灵活地捕捉这类复杂关系。然而模型仍不可避免地受到天气变化、突发事件、道路条件及平台调度策略等未观测因素的影响。因此，本文始终将预测差额视为一种代理指标，而不将其直接解释为真实未成交需求。
@@ -397,11 +423,15 @@ Gap_{i,d,t}=\max\left(\widehat D_{i,d,t}-O^{out}_{i,d,t},\,0\right)\tag{10}
 
 ![正文插图 13](images/figure_13.png)
 
+[打开原图：正文插图 13](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_13.png)
+
 **图 12 按小时汇总的潜在需求缺口代理**
 
 空间分布方面，高缺口网格主要集中在深圳西部和中南部共享单车高活跃区域，尤其是居住、就业、轨道接驳和商住混合功能较强的区域。这些区域既具有较高实际订单基础，也具有较高潜在需求释放空间。对于运营治理而言，高缺口网格可作为车辆补投、早晚高峰动态调度和停车秩序优化的重点候选区域。
 
 ![正文插图 14](images/figure_14.png)
+
+[打开原图：正文插图 14](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_14.png)
 
 **图13 潜在未满足需求代理量空间分布**
 
@@ -454,6 +484,8 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 
 ![正文插图 15](images/figure_15.png)
 
+[打开原图：正文插图 15](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_15.png)
+
 **图14  不同情景下的减碳潜力估算**
 
 结果表明，若通过调度和供给优化使部分潜在需求得以实现，共享单车系统可能释放一定低碳效益。随着潜在缺口实现比例提高，总减碳潜力和净减碳潜力均上升，但调度排放扣减也随之增加。
@@ -471,11 +503,15 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 
 ![正文插图 16](images/figure_16.png)
 
+[打开原图：正文插图 16](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_16.png)
+
 **图15  中性情景下分时段净减碳潜力**
 
 如图14、15所示，从分时段结果看，中性情景下日间平峰贡献的净减碳总量最高，约为4.85吨 CO2；但从单位小时强度看，晚高峰最高，约为 1.47 吨 CO2/小时。这说明，若以总量为目标，日间平峰和高峰时段均值得关注；若以单位时间效率为目标，晚高峰和早高峰更应作为调度优化重点。
 
 ![正文插图 17](images/figure_17.png)
+
+[打开原图：正文插图 17](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_17.png)
 
 **图16  中性情景下网格净减碳潜力空间分布**
 
@@ -488,6 +524,8 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 本文的 1.10 km 基准距离来自清洗后订单的订单加权平均骑行距离。为检验不同距离设定下结果是否稳定，本文选取 0.94 km、1.20 km、1.73 km 和 2.00 km 作为对照距离。其中，0.94 km 和 1.73 km 分别接近样本骑行距离分布的 P25 和 P75，1.20 km 接近网格—小时平均骑行距离中位数，2.00 km 用于观察较高距离假设下的结果变化。上述距离参数仅用于稳健性检验，不改变本文以 1.10 km 为基准的主结果口径。
 
 ![正文插图 18](images/figure_18.png)
+
+[打开原图：正文插图 18](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_18.png)
 
 **图17  平均骑行距离敏感性分析**
 
