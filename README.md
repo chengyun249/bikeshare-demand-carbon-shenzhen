@@ -1,6 +1,6 @@
 # 深圳共享单车潜在需求缺口与情景化减碳潜力
 
-2026 年（第十二届）全国大学生统计建模大赛参赛研究整理。项目以深圳市共享单车订单流和城市 POI 为基础，在 H3 网格—小时尺度上依次分析**订单与供给状态代理、城市功能关联、预测差额代理和情景化减碳潜力**。可直接阅读[论文摘要与正文（Markdown）](paper/article_text.md)，或先看[研究导读（含四张流程图、逐部分机制和代码入口）](docs/research_guide.md)。若公式显示异常，可查看[公式源码索引](paper/equations_source.md)。[提交版论文 PDF](paper/submitted_paper.pdf)仍作为原始版式留档。
+2026 年（第十二届）全国大学生统计建模大赛参赛研究整理。项目以深圳市共享单车订单流和城市 POI 为基础，在 H3 网格—小时尺度上依次分析**订单与供给状态代理、城市功能关联、预测差额代理和情景化减碳潜力**。推荐阅读[完整图文与公式（静态阅读页）](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/article.html)；也可查看[论文摘要与正文（Markdown）](paper/article_text.md)，或先看[研究导读（含四张流程图、逐部分机制和代码入口）](docs/research_guide.md)。若公式显示异常，可查看[公式源码索引](paper/equations_source.md)。[提交版论文 PDF](paper/submitted_paper.pdf)仍作为原始版式留档。
 
 > **解释边界：**“供给富裕 / 紧张”不是真实车辆库存；“潜在需求缺口”是模型预测值高于已实现订单的正差额，不是已证实的未成交需求；减碳数字是参数情景下的潜力估算，不是核证减排量。
 

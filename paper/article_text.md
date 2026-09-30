@@ -1,6 +1,6 @@
 # 共享单车潜在需求缺口与情景化减碳潜力研究
 
-> 阅读提示：如果图像未显示，可尝试每幅图下方的“打开原图”链接。公式预览异常时，可查看[公式源码索引](equations_source.md)。
+> 阅读提示：推荐使用[静态阅读页](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/article.html)查看完整正文、图片和公式。如果当前 GitHub 页面未显示插图，可点击每幅图下方的“打开原图”；公式另见[源码索引](equations_source.md)。
 
 ## 摘要
 
@@ -42,7 +42,7 @@
 
 ![正文插图 1](images/figure_01.png)
 
-[打开原图：正文插图 1](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_01.png)
+[打开原图：正文插图 1](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_01.png)
 
 **图1  本文技术路线**
 
@@ -85,7 +85,7 @@
 
 ![正文插图 2](images/figure_02.png)
 
-[打开原图：正文插图 2](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_02.png)
+[打开原图：正文插图 2](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_02.png)
 
 **图2  数据处理与面板构建流程**
 
@@ -191,7 +191,7 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 3](images/figure_03.png)
 
-[打开原图：正文插图 3](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_03.png)
+[打开原图：正文插图 3](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_03.png)
 
 **图3  共享单车订单 24 小时分布**
 
@@ -216,7 +216,7 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 4](images/figure_04.png)
 
-[打开原图：正文插图 4](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_04.png)
+[打开原图：正文插图 4](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_04.png)
 
 **图 4  共享单车订单空间分布**
 
@@ -232,7 +232,7 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 5](images/figure_05.png)
 
-[打开原图：正文插图 5](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_05.png)
+[打开原图：正文插图 5](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_05.png)
 
 **图 5  夜间净流入空间分布**
 
@@ -244,7 +244,7 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 6](images/figure_06.png)
 
-[打开原图：正文插图 6](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_06.png)
+[打开原图：正文插图 6](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_06.png)
 
 **图 6  早高峰前库存代理空间分布**
 
@@ -256,7 +256,7 @@ CE_s^{net}=\sum_{i,d,t}\alpha_s Gap_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{7}
 
 ![正文插图 7](images/figure_07.png)
 
-[打开原图：正文插图 7](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_07.png)
+[打开原图：正文插图 7](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_07.png)
 
 **图 7  晚高峰供给富裕代理区与供给紧张代理区**
 
@@ -282,7 +282,7 @@ POI变量的作用主要体现在两方面：一是解释订单强度的空间�
 
 ![正文插图 8](images/figure_08.png)
 
-[打开原图：正文插图 8](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_08.png)
+[打开原图：正文插图 8](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_08.png)
 
 **图 8  POI变量相关矩阵**
 
@@ -323,7 +323,7 @@ POI变量的作用主要体现在两方面：一是解释订单强度的空间�
 
 ![正文插图 9](images/figure_09.png)
 
-[打开原图：正文插图 9](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_09.png)
+[打开原图：正文插图 9](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_09.png)
 
 **图 9  POI变量对出发订单强度的影响**
 
@@ -350,11 +350,11 @@ POI变量的作用主要体现在两方面：一是解释订单强度的空间�
 
 ![正文插图 10](images/figure_10.png)
 
-[打开原图：正文插图 10](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_10.png)
+[打开原图：正文插图 10](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_10.png)
 
 ![正文插图 11](images/figure_11.png)
 
-[打开原图：正文插图 11](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_11.png)
+[打开原图：正文插图 11](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_11.png)
 
 **图 10  POI变量对供给状态代理的解释方向**
 
@@ -411,7 +411,7 @@ Gap_{i,d,t}=\max\left(\widehat D_{i,d,t}-O^{out}_{i,d,t},\,0\right)\tag{10}
 
 ![正文插图 12](images/figure_12.png)
 
-[打开原图：正文插图 12](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_12.png)
+[打开原图：正文插图 12](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_12.png)
 
 **图11 预测模型 RMSE对比**
 
@@ -423,7 +423,7 @@ Gap_{i,d,t}=\max\left(\widehat D_{i,d,t}-O^{out}_{i,d,t},\,0\right)\tag{10}
 
 ![正文插图 13](images/figure_13.png)
 
-[打开原图：正文插图 13](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_13.png)
+[打开原图：正文插图 13](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_13.png)
 
 **图 12 按小时汇总的潜在需求缺口代理**
 
@@ -431,7 +431,7 @@ Gap_{i,d,t}=\max\left(\widehat D_{i,d,t}-O^{out}_{i,d,t},\,0\right)\tag{10}
 
 ![正文插图 14](images/figure_14.png)
 
-[打开原图：正文插图 14](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_14.png)
+[打开原图：正文插图 14](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_14.png)
 
 **图13 潜在未满足需求代理量空间分布**
 
@@ -484,7 +484,7 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 
 ![正文插图 15](images/figure_15.png)
 
-[打开原图：正文插图 15](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_15.png)
+[打开原图：正文插图 15](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_15.png)
 
 **图14  不同情景下的减碳潜力估算**
 
@@ -503,7 +503,7 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 
 ![正文插图 16](images/figure_16.png)
 
-[打开原图：正文插图 16](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_16.png)
+[打开原图：正文插图 16](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_16.png)
 
 **图15  中性情景下分时段净减碳潜力**
 
@@ -511,7 +511,7 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 
 ![正文插图 17](images/figure_17.png)
 
-[打开原图：正文插图 17](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_17.png)
+[打开原图：正文插图 17](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_17.png)
 
 **图16  中性情景下网格净减碳潜力空间分布**
 
@@ -525,7 +525,7 @@ CE_s^{net}=\sum_{i,d,t}A^s_{i,d,t}\,L\,EF-CE_s^{dispatch}\tag{12}
 
 ![正文插图 18](images/figure_18.png)
 
-[打开原图：正文插图 18](https://cdn.jsdelivr.net/gh/chengyun249/bikeshare-demand-carbon-shenzhen@main/paper/images/figure_18.png)
+[打开原图：正文插图 18](https://chengyun249.github.io/bikeshare-demand-carbon-shenzhen/paper/images/figure_18.png)
 
 **图17  平均骑行距离敏感性分析**
 
